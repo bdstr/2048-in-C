@@ -1,0 +1,1 @@
+g++ -O2 -I./SDL-2.0.7/include -L. -o 2048 main.cpp -lm -lSDL2x64 -lpthread -ldl -lrt -no-pie && ./2048
